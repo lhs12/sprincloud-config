@@ -1,18 +1,2 @@
-server:
-  port: 3344
-spring:
-  application:
-    name: cloud-config-center
-  cloud:
-    config:
-      server:
-        git:
-          uri:  https://gitee.com/hai_sheng_liu/cloud2020.git
-          search-paths:
-            -  cloud2020
-      label: master
-eureka:
-  client:
-    service-url:
-      defaultZone:  http://localhost:7001/eureka
-
+config: 
+  info： master branch version1
